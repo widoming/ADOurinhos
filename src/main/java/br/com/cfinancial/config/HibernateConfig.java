@@ -23,8 +23,8 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 @EnableTransactionManagement
 public class HibernateConfig {
 	
-	//Configuração de conexão com Firebird
-	private static final String DATABASE_URL = "jdbc:postgresql://127.0.0.1:16582/cfinancial";
+	//Configuração de conexão com PostgreSQL
+	private static final String DATABASE_URL = "jdbc:postgresql://127.0.0.1:16583/cfinancial";
 	private static final String DATABASE_USERNAME = "postgres";
 	private static final String DATABASE_PASSWORD = "root";
 	private static final String DATABASE_DIALECT = "org.hibernate.dialect.PostgreSQLDialect";
